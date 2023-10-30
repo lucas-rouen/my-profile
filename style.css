@@ -1,0 +1,56 @@
+body{
+	background-color: darkolivegreen;
+	color: darkblue;
+}
+
+#logo {width: 150px;
+}
+
+
+h1 {
+	color: darkslategrey;
+	font-size: 40px;
+	font-weight: 500;
+}
+a{
+	color: darkslateblue;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+p{ color: white;
+	font-weight: 300;
+	font-size: 17px;
+}
+
+h2{
+	color: darkslategrey;
+}
+
+
+/*Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 200px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 200px;
+	}
+}
+
+
+.card-white {
+	background-color: darkseagreen;
+	padding: 5px;
+	box-shadow: darkslategrey 0px 10px 30px rgba(10, 10, 10, 10);
+}
